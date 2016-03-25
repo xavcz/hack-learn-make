@@ -1095,6 +1095,7 @@ body:not(.post-template) .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+    box-shadow: 0px 18px 34px 5px rgba(0, 0, 0, 0.24);
 }
 
 .footnotes {
