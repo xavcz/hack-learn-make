@@ -29,6 +29,27 @@
             {{content}}
         </section>
 
+        <section class="post-newsletter">
+          <!--
+          <div id="content">
+            <h1>Customized MailChimp Newsletter Opt-In Form</h1>
+
+            <div id="mc_embed_signup">
+              <form action="//hacklearnmake.us13.list-manage.com/subscribe/post?u=9beb9bd4162802837ea34bb53&amp;id=79db0192b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL">E-mail Newsletter Signup</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_9beb9bd4162802837ea34bb53_79db0192b6" value=""></div>
+
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+              </form>
+
+              <div id="notification_container"></div>
+            </div>
+          </div>
+          -->
+        </section>
+
         <footer class="post-footer">
 
         {{! Everything inside the #author tags pulls data from the author }}
@@ -55,29 +76,6 @@
             </section>
 
         {{/author}}
-            <div id="disqus_thread"></div>
-            <script>
-                /**
-                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-                 */
-
-                var disqus_config = function () {
-                this.page.url = '{{@blog.url}}{{url}}'; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = 'ghost-{{id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-
-                (function() { // DON'T EDIT BELOW THIS LINE
-                    var d = document, s = d.createElement('script');
-
-                    s.src = '//hacklearnmake.disqus.com/embed.js';
-
-                    s.setAttribute('data-timestamp', +new Date());
-                    (d.head || d.body).appendChild(s);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the comments.</a></noscript>
-
             <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
@@ -93,7 +91,30 @@
                     <span class="hidden">Google+</span>
                 </a>
             </section>
+            <section class="post-comments">
+              <div id="disqus_thread"></div>
+              <script>
+                /**
+                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
 
+                var disqus_config = function () {
+                  this.page.url = '{{@blog.url}}{{url}}'; // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = 'ghost-{{id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function() { // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
+
+                  s.src = '//hacklearnmake.disqus.com/embed.js';
+
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the comments.</noscript>
+            </section>
         </footer>
 
     </article>
