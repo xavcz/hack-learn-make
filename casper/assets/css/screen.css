@@ -1803,6 +1803,30 @@ body:not(.post-template) .post-title {
     color: #373b4c !important;
     background-color: inherit !important;
 }
+
+.cta {
+    display: block;
+    position: relative;
+    background-color: #373b4c;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    border: 0 none;
+    border-bottom: #202231 3px solid;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 160px;
+    height: 42px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.cta:hover { background-color: #494e65; border-bottom-color: #2f3148; }
+.cta:active { top: 2px; border-bottom-width: 1px; }
+
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
    ========================================================================== */
