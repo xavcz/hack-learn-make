@@ -42,13 +42,13 @@ You can find them on the [podcast site](https://transmission.simplecast.fm/) or 
 
 Answer
 
-> Why listening to Transmission as a Meteor developer?
+> Do you like where MDG is taking Meteor and Apollo to?
 
 Answer
 
-> How awesome is it to hang out with MDG people?
+> Can you share some learnings you picked up by hanging out with MDG people recently?
 
- Answer
+Answer
 
 
 ######\o/
