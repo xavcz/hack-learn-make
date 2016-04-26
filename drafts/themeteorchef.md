@@ -56,15 +56,15 @@ If you need paid-coaching, have a look on the [Chef's table page](http://) and a
 
 > What would you recommend to a newcomer discovering TMC?
 
-Answer
+A good place to start is in the archive. A ton of stuff has been written over the past few years. I'd also check out the learning philosophy to see if TMC's approach is right for you.
 
 > Do you have any general advice to handle Meteor at its best?
 
-Answer
+I'd say the best way to work with Meteor at the moment is by following the Meteor Guide. It has a ton of great thoughts/advice on how to work with Meteor. In fact, this is what I followed to structure the new version of Base. I highly recommend it :)
 
 > What's the funniest thing that happen to you coding with Meteor?
 
-Answer
+In the early days, I didn't really understand publish and subscribe very well. My first few apps that I thought were production ready were actually leaking *all* of my users data to the client. Fortunately the applications weren't anything too secure and some helpful community members pointed out my errors. Definitely fun to look back on and laugh at now a few years later!
 
 ######\o/
 Thanks Ryan for answering my questions, you can follow Ryan on [Twitter](https://twitter.com/themeteorchef)!
