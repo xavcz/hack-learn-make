@@ -33,7 +33,7 @@ Listening to TRANSMISSION feels like this:
 
 So far, they have been covering a lot of interesting subjects, like [the Apollo data stack](https://www.youtube.com/watch?v=J4ma5Qow34M&list=PLTUf4ytkmI8Q7cbf4J6aQEYun5g8fxt9B&index=14), [experience you get with Meteor 1.3](https://transmission.simplecast.fm/5) or [the distant future of Meteor](https://transmission.simplecast.fm/8), all that with an easy-to-listen solution!
 
-![Transmission on Youtube](/content/images/2016/05/transmission-screenshot-1.jpg)
+![Transmission on Youtube](http://hacklearnmake.com/content/images/2016/05/transmission-screenshot-1.jpg)
 
 You can find them on the [podcast site](https://transmission.simplecast.fm/) or on their [Youtube channel](https://www.youtube.com/playlist?list=PLTUf4ytkmI8Q7cbf4J6aQEYun5g8fxt9B).
 
