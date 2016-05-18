@@ -503,7 +503,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 75vh;
+    height: 40vh;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -924,6 +924,12 @@ body.nav-opened .nav {
     word-wrap: break-word;
 }
 
+.post-loop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 .post:after {
@@ -964,10 +970,11 @@ body:not(.post-template) .post-title {
     display: block;
     margin: 1rem 0 1rem 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
     color: #9EABB3;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .author-thumb {
@@ -996,8 +1003,9 @@ body:not(.post-template) .post-title {
 .post-date {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     white-space: nowrap;
+    margin-bottom: 0.3rem;
 }
 
 .user-image {
@@ -1203,7 +1211,7 @@ body:not(.post-template) .post-title {
    ========================================================================== */
 
 .post-head.main-header {
-    height: 65vh;
+    height: 40vh;
     min-height: 180px;
 }
 
@@ -1617,9 +1625,8 @@ body:not(.post-template) .post-title {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        height: auto;
         min-height: 240px;
-        height: 60vh;
+        height: 40vh;
         padding: 15% 0;
     }
 
@@ -1827,6 +1834,16 @@ body:not(.post-template) .post-title {
 .cta:hover { background-color: #494e65; border-bottom-color: #2f3148; }
 .cta:active { top: 2px; border-bottom-width: 1px; }
 
+.cta-2 {
+    color: #373b4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-2:hover {
+    color: darkred;
+}
+
 /* ==========================================================================
    12. Media Queries - Smaller than 500px
    ========================================================================== */
@@ -2005,7 +2022,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-meta {
-        font-size: 1.3rem;
+        font-size: 0.9rem;
         margin-top: 1rem;
     }
 
