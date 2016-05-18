@@ -1610,12 +1610,113 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
+#mc_embed_signup form {display: block; position: relative; text-align: left; padding: 10px 0 10px 3%;
+    margin: 65px auto 65px auto; }
+#mc_embed_signup h2 {font-weight: bold; padding: 0; margin: 15px 0; font-size: 1.4em; display: flex; justify-content: center; text-align: center; text-transform: uppercase; letter-spacing: 0.1px;}
+#mc_embed_signup h3 {font-weight: bold; padding: 0; margin: 15px 0; font-size: 0.9em; display: flex; justify-content: center; text-align: center; }
+
+#mc_embed_signup input { border: 1px solid #ababab; -webkit-appearance: none; }
+#mc_embed_signup input[type=checkbox]{ -webkit-appearance: checkbox; }
+#mc_embed_signup input[type=radio]{ -webkit-appearance: radio; }
+#mc_embed_signup input:focus { border-color: #28282d; }
+
+#mc_embed_signup .button {
+    display: block;
+    position: relative;
+    background-color: #373b4c;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    border: 0 none;
+    border-bottom: #202231 3px solid;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 160px;
+    height: 42px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+#mc_embed_signup .button:hover { background-color: #494e65; border-bottom-color: #2f3148; }
+#mc_embed_signup .button:active { top: 2px; border-bottom-width: 1px; }
+
+#mc_embed_signup label { display: block; font-size: 13px; text-transform: uppercase; margin: 0 auto 0 auto; padding-bottom: 7px; color: #616161; font-weight: bold; }
+#mc_embed_signup input.email {
+    display: block;
+    padding: 8px 4px;
+    margin: 0 auto 10px auto;
+    text-indent: 5px;
+    color: #818181;
+    font-size: 0.9em;
+    background: #f3f3f3;
+    font-weight: bold;
+    width: 80%;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#mc_embed_signup input.email:focus {
+    color: #666;
+    background: #f3f3f3;
+    -webkit-box-shadow: 0 0 12px #373b4c;
+    -moz-box-shadow: #373b4c;
+    box-shadow: #373b4c;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    color: #373b4c !important;
+    background-color: inherit !important;
+}
+
+.cta {
+    display: block;
+    position: relative;
+    background-color: #373b4c;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    border: 0 none;
+    border-bottom: #202231 3px solid;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 160px;
+    height: 42px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+}
+.cta:hover { background-color: #494e65; border-bottom-color: #2f3148; }
+.cta:active { top: 2px; border-bottom-width: 1px; }
+
+.cta-2 {
+    color: #373b4c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-2:hover {
+    color: darkred;
+}
+
 
 /* ==========================================================================
    11. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
+
+    .post-loop {
+        display: block;
+    }
 
     blockquote {
         margin-left: 0;
@@ -1745,103 +1846,6 @@ body:not(.post-template) .post-title {
         border-left: none;
     }
 
-}
-
-#mc_embed_signup form {display: block; position: relative; text-align: left; padding: 10px 0 10px 3%;
-    margin: 65px auto 65px auto; }
-#mc_embed_signup h2 {font-weight: bold; padding: 0; margin: 15px 0; font-size: 1.4em; display: flex; justify-content: center; text-align: center; text-transform: uppercase; letter-spacing: 0.1px;}
-#mc_embed_signup h3 {font-weight: bold; padding: 0; margin: 15px 0; font-size: 0.9em; display: flex; justify-content: center; text-align: center; }
-
-#mc_embed_signup input { border: 1px solid #ababab; -webkit-appearance: none; }
-#mc_embed_signup input[type=checkbox]{ -webkit-appearance: checkbox; }
-#mc_embed_signup input[type=radio]{ -webkit-appearance: radio; }
-#mc_embed_signup input:focus { border-color: #28282d; }
- 
-#mc_embed_signup .button {
-  display: block;
-  position: relative;
-  background-color: #373b4c;
-  padding: 0;
-  margin: 10px auto 0 auto;
-  border: 0 none;
-  border-bottom: #202231 3px solid;
-  border-radius: 6px;
-  color: #fff; 
-  cursor: pointer;
-  font-size: 16px;
-  width: 160px;
-  height: 42px;
-  line-height: 36px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: top;
-}
-#mc_embed_signup .button:hover { background-color: #494e65; border-bottom-color: #2f3148; }
-#mc_embed_signup .button:active { top: 2px; border-bottom-width: 1px; }
-
-#mc_embed_signup label { display: block; font-size: 13px; text-transform: uppercase; margin: 0 auto 0 auto; padding-bottom: 7px; color: #616161; font-weight: bold; }
-#mc_embed_signup input.email {
-  display: block;
-  padding: 8px 4px;
-  margin: 0 auto 10px auto;
-  text-indent: 5px;
-  color: #818181;
-  font-size: 0.9em;
-  background: #f3f3f3;
-  font-weight: bold;
-  width: 80%;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-}
-#mc_embed_signup input.email:focus { 
-  color: #666;
-  background: #f3f3f3;
-  -webkit-box-shadow: 0 0 12px #373b4c;
-  -moz-box-shadow: #373b4c;
-  box-shadow: #373b4c;
-}
-
-#mc_embed_signup div.mce_inline_error {
-    color: #373b4c !important;
-    background-color: inherit !important;
-}
-
-.cta {
-    display: block;
-    position: relative;
-    background-color: #373b4c;
-    padding: 0;
-    margin: 10px auto 0 auto;
-    border: 0 none;
-    border-bottom: #202231 3px solid;
-    border-radius: 6px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    width: 160px;
-    height: 42px;
-    line-height: 36px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: top;
-}
-.cta:hover { background-color: #494e65; border-bottom-color: #2f3148; }
-.cta:active { top: 2px; border-bottom-width: 1px; }
-
-.cta-2 {
-    color: #373b4c;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cta-2:hover {
-    color: darkred;
 }
 
 /* ==========================================================================
