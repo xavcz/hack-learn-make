@@ -1,19 +1,13 @@
-# Glad to have this newsletter crash weekly in your inbox
-
-Not into looking at Reddit or content-curation site? 
+You are not that much into looking at [Reddit](https://www.reddit.com/r/Meteor/) or [content-curation communities]() to stay up to date? So what if you could:
 
 > Stay updated without spending hours looking for what is relevant
 
-Curated by folks involved in the Meteor community
+So you should get delivered in your inbox the [Meteor Weekly newsletter](http://meteorweekly.com/)!
 
-Karl Danninger - Ok Grow
+Curated by folks involved in the Meteor community, mainly [Karl Danninger](https://twitter.com/karldanninger) with the help of the [OK GROW!](https://www.okgrow.com/) team, this is a fresh newsletter that you'll be always glad to receive and open!
 
-Before, Rishi Goomar : http://meteorweekly.com/2016/04/15/issue-14
+Available every Friday in your inbox, it is divided in two categories, Core & Community. You can also browse the archives to get access to the previous issues, in case you missed them!
 
-Two parts: Core / Community
+Well, it's simple & efficient <3 Don't wait for [suscribing to Meteor Weekly](http://meteorweekly.com/)!
 
-Available every sunday in your inbox (?)
-
-And also in the archives
-
-Simple & efficient <3
+*Note:* [For a long time](http://meteorweekly.com/2016/04/15/issue-14), it has been curated by [Rishi Goomar](https://twitter.com/rgoomar), who has now headed to some other horizons in the JavaScript world. Big up for starting the movement and empowering the community!
