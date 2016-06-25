@@ -1,8 +1,8 @@
+# Let's cook Meteor with the Chef
+
 How do I solve that with Meteor? For developers like us, this question may happen under the hood more often that we would like! 
 
 But thankfully [The Meteor Chef](http://themeteorchef.com), TMC, teaches you how to solve-day-to-day problems in your Meteor applications. Yeah!
-
-### Cook Meteor with the Chef
 
 ![Huge meal photo](http://www.roscoelilly.org/wp-content/uploads/2015/03/Lunch-Time-HD-Wallpaper-1024x576.jpg)
 
