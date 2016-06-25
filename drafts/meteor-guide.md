@@ -1,4 +1,6 @@
-Meteor is the fastest way to build JavaScript apps, [they say](link to Transmission). And not only fast, but it's also [easy to learn and powerful](http://hacklearnmake.com/stoked-on-meteor-the-goal-is-to-learn/).
+# How to build awesome apps with Meteor
+
+Meteor is the fastest way to build JavaScript apps, [they say](http://hacklearnmake.com/stoked-on-meteor-transmission/). And not only fast, but it's also [easy to learn and powerful](http://hacklearnmake.com/stoked-on-meteor-the-goal-is-to-learn/).
 
 ### Tools in hand
 The modern JavaScript ecosystem deals with a recurrent problem, [an enormous fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.55ngimqen) due to heavy tooling and a *fast* evolution of these tools.
@@ -35,11 +37,12 @@ It has been developed in the open, and it's opinionated yet but built with the c
 
 I highly recommend reading it once. If you are not convinced that you need it, just take 20 minutes to watch this video from Meteor DevShop at San Fransisco where they explain its point more in details:
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=A_VgmPfMrOc" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/A_VgmPfMrOc" frameborder="0" allowfullscreen></iframe>
 
 *Note:* MDG is inviting you to contribute to the guide, so if you think you can add a relevant touch to it, don't panic and contribute to it!
 
 In addition to [the Meteor Guide](https://guide.meteor.com), you may also check some others resources like:
+
 * [The Meteor Chef blog](http://hacklearnmake.com/stoked-on-meteor-the-meteor-chef/) with snippets and tutorials to solve particular problems you may have
 * [The Space Dojo](http://hacklearnmake.com/become-a-meteor-ninja-with-the-spacedojo/) to learn deeper concepts about Meteor
 * [Crater News](http://hacklearnmake.com/stoked-on-meteor-crater-io/) to stay tuned to the recent JavaScript news
