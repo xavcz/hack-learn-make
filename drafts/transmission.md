@@ -1,4 +1,6 @@
-*Bzzz... Incoming Transmission!* You may be familiar with this sentence when thinking about Meteor. In case you are not, it's an introduction to get information from and with Meteor Development Group, MDG.
+# Bzzz... Incoming Transmission!
+
+You may be familiar with this sentence when thinking about Meteor. In case you are not, it's an introduction to get information from and with Meteor Development Group, MDG.
 
 ### Who is Meteor Development Group?
 MDG is the startup behind Meteor. They are the people with the ambition to change the way you build software:
@@ -33,27 +35,13 @@ Listening to TRANSMISSION feels like this:
 
 So far, they have been covering a lot of interesting subjects, like [the Apollo data stack](https://www.youtube.com/watch?v=J4ma5Qow34M&list=PLTUf4ytkmI8Q7cbf4J6aQEYun5g8fxt9B&index=14), [experience you get with Meteor 1.3](https://transmission.simplecast.fm/5) or [the distant future of Meteor](https://transmission.simplecast.fm/8), all that with an easy-to-listen solution!
 
-![Transmission on Youtube](http://hacklearnmake.com/content/images/2016/05/transmission-screenshot-1.jpg)
+![Transmission on Youtube](/content/images/2016/05/transmission-screenshot-1.jpg)
 
 You can find them on the [podcast site](https://transmission.simplecast.fm/) or on their [Youtube channel](https://www.youtube.com/playlist?list=PLTUf4ytkmI8Q7cbf4J6aQEYun5g8fxt9B).
 
 ### Q&A with Ben Strahan
 ###### ~~Serious~~ Podcast dude
 ![Ben Strahan](http://hacklearnmake.com/content/images/2016/04/hacklearnmake-ben-strahan.jpg)
-> How stoked are you on Meteor and why?
-
-Answer
-
-> Do you like where MDG is taking Meteor and Apollo to?
-
-Answer
-
-> Can you share some learnings you picked up by hanging out with MDG people recently?
-
-Answer
-
-
-######\o/
-Thanks Ben for answering my questions, you can follow him on [Twitter](https://twitter.com/_benstr)!
+I've asked Ben some questions, the answers are on the wire. By the time it gets here, you can follow him on [Twitter](https://twitter.com/_benstr)!
 
 Go listen to TRANSMISSION, read the forums, and let's discuss what you think in the comments!
