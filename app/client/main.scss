@@ -3,15 +3,12 @@ $grey: #e3e3e3;
 $white: #ffffff;
 $blue-light: #7ccbfd;
 $blue-dark: #51b1fb;
-
-@viewport { 
-    width: device-width; 
-    zoom: 1; 
-}
+$breakpoint: 500px;
 
 html {
   font-family: Courier;
   color: $black;
+  overflow: hidden;
 }
 
 .main {
@@ -27,8 +24,12 @@ header {
 
   h1 {
     font-size: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin: 0;
+
+    @media screen and (max-width: $breakpoint) {
+      font-size: 28px;
+    }
   }
 
   .subtitle {
@@ -42,6 +43,11 @@ header {
     position: relative;
     width: 400px;
     height: 83px;
+
+    @media screen and (max-width: $breakpoint) {
+      width: 200px;
+    }
+
     border: none;
     border-radius: 8px;
     background-color: $blue-light;
@@ -65,6 +71,10 @@ header {
       font-family: Courier-Bold;
       font-size: 37px;
       letter-spacing: 2.6px;
+      @media screen and (max-width: $breakpoint) {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+      }
       color: #ffffff;
       text-transform: uppercase;
     }
