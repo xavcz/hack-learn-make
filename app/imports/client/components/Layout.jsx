@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 
-//import { DocHead } from 'meteor/kadira:dochead';
 
 class Layout extends Component {
   render() {
-
-    //DocHead.setTitle('{ Hack, Learn } = Make');
-    //DocHead.addMeta({ name: 'viewport', content: 'width=device-width, user-scalable=no, initial-scale=1.0, shrink-to-fit=no' });
-
     return (
       <div className="main">
         <header>
