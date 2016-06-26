@@ -15,7 +15,7 @@ class Layout extends Component {
           <div className="subtitle">The blog spacetraveled to Medium</div>
         </header>
         <div className="cta">
-          <button>
+          <button onClick={ () => window.location = 'https://medium.com/hack-learn-make' }>
             <span>read the blog</span>
           </button>
         </div>
