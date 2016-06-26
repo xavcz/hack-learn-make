@@ -18,3 +18,4 @@ static-html
 fourseven:scss
 seba:minifiers-autoprefixer
 #kadira:dochead
+fortawesome:fontawesome

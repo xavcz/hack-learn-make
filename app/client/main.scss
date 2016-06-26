@@ -43,9 +43,19 @@ header {
     position: relative;
     width: 400px;
     height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Courier-Bold;
+    font-size: 37px;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    text-transform: uppercase;
 
     @media screen and (max-width: $breakpoint) {
       width: 200px;
+      font-size: 16px;
+      letter-spacing: 1.5px;
     }
 
     border: none;
@@ -59,24 +69,12 @@ header {
 
     &:hover {
       box-shadow: inset 0 9px $white;
-      padding-top: 9px;
+      padding-top: 11px;
       cursor: pointer;
     }
     
     &:active {
       background-color: $blue-dark;
-    }
-
-    span {
-      font-family: Courier-Bold;
-      font-size: 37px;
-      letter-spacing: 2.6px;
-      @media screen and (max-width: $breakpoint) {
-        font-size: 16px;
-        letter-spacing: 1.5px;
-      }
-      color: #ffffff;
-      text-transform: uppercase;
     }
   }
 }

@@ -11,7 +11,7 @@ class Layout extends Component {
         </header>
         <div className="cta">
           <button onClick={ () => window.location = 'https://medium.com/hack-learn-make' }>
-            <span>read the blog</span>
+            <i className="fa fa-medium"></i><span>read the blog</span>
           </button>
         </div>
         <div className="gif">
