@@ -1,3 +1,7 @@
+Published on Medium: [https://medium.com/@xav_cz/stoked-on-meteor-join-the-adventure-with-discover-meteor-1d71dc6abcc7](https://medium.com/@xav_cz/stoked-on-meteor-join-the-adventure-with-discover-meteor-1d71dc6abcc7#.fl9aq37qa)
+
+---
+
 # Join the adventure with Discover Meteor
 
 [Discover Meteor](http://www.discovermeteor.com) is the resource that takes you from scratch and teach you how to build faster real-time web apps. And it get farther than that!
