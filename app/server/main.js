@@ -76,3 +76,10 @@ Meteor.startup(() => {
   
   oldPosts.map(post => Posts.insert(post));
 });
+
+//debug
+Meteor.methods({
+  'posts.remove'() {
+    return Posts.remove({});
+  },
+})

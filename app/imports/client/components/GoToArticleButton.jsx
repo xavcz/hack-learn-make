@@ -27,7 +27,7 @@ class GoToArticleButton extends Component {
       button = {
         location: post.currentUrl,
         icon: post.published ? 'medium' : 'github',
-        value: `read the ${post.published ? 'article' : 'draft' }`,
+        value: `read the ${post.published ? 'post' : 'draft' }`,
       }
     }
 
