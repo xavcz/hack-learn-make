@@ -31,9 +31,48 @@ Meteor.startup(() => {
     return;
   }
   
-  Posts.insert({ 
-    published: false, 
-    ghostRoute: '/stoked-on-meteor-discover-meteor', 
-    currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/discover.md'
-  });
+  const oldPosts = [
+    { 
+      published: true, 
+      ghostRoute: '/stoked-on-meteor-the-goal-is-to-learn', 
+      currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-the-goal-is-to-learn-syllabus-8e490848d57c'
+    },
+    { 
+      published: true, 
+      ghostRoute: '/stoked-on-meteor-discover-meteor', 
+      currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-join-the-adventure-with-discover-meteor-1d71dc6abcc7'
+    },
+    { 
+      published: false, 
+      ghostRoute: '/stoked-on-meteor-the-meteor-chef', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/themeteorchef.md'
+    },
+    { 
+      published: false, 
+      ghostRoute: '/build-bulletproofs-meteor-apps-with-kadira', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/kadira.md'
+    },
+    { 
+      published: false, 
+      ghostRoute: '/become-a-meteor-ninja-with-the-spacedojo', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/spacedojo.md'
+    },
+    { 
+      published: false, 
+      ghostRoute: '/meteor-weekly-newsletter', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/weekly.md'
+    },
+    { 
+      published: false, 
+      ghostRoute: 'surf', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/flipflops.md'
+    },
+    { 
+      published: false, 
+      ghostRoute: 'transmission', 
+      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/transmission.md'
+    },
+  ];
+  
+  oldPosts.map(post => Posts.insert(post));
 });
