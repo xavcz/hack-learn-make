@@ -40,7 +40,6 @@ header {
 
 .cta {
   button {
-    position: relative;
     width: 400px;
     height: 83px;
     display: flex;
@@ -61,27 +60,20 @@ header {
     border: none;
     border-radius: 8px;
     background-color: $blue-light;
-    box-shadow: inset 0 -9px $blue-dark;
+    box-shadow: inset 0 -7px $blue-dark;
     //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     &:focus {
       outline: none;
     }
 
     &:hover {
-      box-shadow: inset 0 9px $white;
-      padding-top: 11px;
+      box-shadow: inset 0 7px $white;
       cursor: pointer;
+      padding-top: 11px;
     }
     
     &:active {
       background-color: $blue-dark;
     }
   }
-}
-
-.rectangle-1-copy {
-  width: 245px;
-  height: 83px;
-  border-radius: 8px;
-  background-color: $blue-dark;
 }
