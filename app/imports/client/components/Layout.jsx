@@ -14,7 +14,7 @@ class Layout extends Component {
           <GoToArticleButton { ...this.props.data } />
         </div>
         <div className="gif">
-          <img src="telescope_to_rocket.gif" title="Made By Elvis" />
+          <img src="/telescope_to_rocket.gif" title="Made By Elvis" />
         </div>
       </div>
     )
