@@ -1,3 +1,5 @@
+Published: 💚 https://medium.com/hack-learn-make/stoked-on-meteor-stay-tuned-with-crater-e498c670a244#.lcm46fqpc
+
 Even though [the goal is to learn](http://hacklearnmake.com/stoked-on-meteor-the-goal-is-to-learn/), one wise advice I was given some day has been to not trying to know everything and filter what you want to learn to get the best and avoid well-known [Javascript Fatigue](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4).
 
 ### Where real-time web & mobile dev news lands
