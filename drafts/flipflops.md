@@ -1,3 +1,5 @@
+> Published here: https://medium.com/hack-learn-make/code-and-surf-meteor-in-gran-canaria-46380b246162#.4yarqpa43
+
 # Code and surf Meteor in Gran Canaria
 
 What if you could take several days off to learn and create awesome stuff with other passionate people in a place where the weather feels like an eternal spring?
