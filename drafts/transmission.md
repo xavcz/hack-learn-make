@@ -1,3 +1,5 @@
+Published on Medium: https://medium.com/hack-learn-make/stoked-on-meteor-bzzz-incoming-transmission-9637ba8de1be
+
 # Bzzz... Incoming Transmission!
 
 You may be familiar with this sentence when thinking about Meteor. In case you are not, it's an introduction to get information from and with Meteor Development Group, MDG.
