@@ -43,9 +43,9 @@ Meteor.startup(() => {
       currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-join-the-adventure-with-discover-meteor-1d71dc6abcc7'
     },
     { 
-      published: false, 
+      published: true, 
       ghostRoute: '/stoked-on-meteor-the-meteor-chef', 
-      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/themeteorchef.md'
+      currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-lets-cook-meteor-with-the-chef-d8ff8fbff09d#.kgwuwgwvk'
     },
     { 
       published: false, 
@@ -63,14 +63,19 @@ Meteor.startup(() => {
       currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/weekly.md'
     },
     { 
-      published: false, 
+      published: true, 
       ghostRoute: 'surf', 
-      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/flipflops.md'
+      currentUrl: 'https://medium.com/hack-learn-make/code-and-surf-meteor-in-gran-canaria-46380b246162#.4yarqpa43'
     },
     { 
-      published: false, 
+      published: true, 
       ghostRoute: 'transmission', 
-      currentUrl: 'https://github.com/xavcz/hack-learn-make/blob/master/drafts/transmission.md'
+      currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-bzzz-incoming-transmission-9637ba8de1be'
+    },
+    { 
+      published: true, 
+      ghostRoute: 'crater', 
+      currentUrl: 'https://medium.com/hack-learn-make/stoked-on-meteor-stay-tuned-with-crater-e498c670a244'
     },
   ];
   
@@ -80,6 +85,6 @@ Meteor.startup(() => {
 //debug
 Meteor.methods({
   'posts.remove'() {
-    return Posts.remove({});
+    return Meteor.isProduction ? null : Posts.remove({});
   },
 })
