@@ -1,3 +1,5 @@
+> Published here: https://medium.com/hack-learn-make/stoked-on-meteor-become-a-meteor-ninja-with-the-spacedojo-9049dcabc1c9#.vsb3dmggj
+
 # Become a Meteor Ninja with the SpaceDojo
 Are you appealed by mastering the art of real-time web? If yes, the SpaceDojo is a right place where to look. Meaning there are high-quality video courses, podcasts with knowledgeable people & a pro slack room full of web ninjas powered by the same passion, building awesome stuff.
 
