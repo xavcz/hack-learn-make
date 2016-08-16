@@ -1,5 +1,7 @@
 # How to build awesome apps with Meteor
 
+> Published: https://medium.com/hack-learn-make/how-to-build-awesome-apps-with-meteor-d11feeb98b94#.7l0evrxn6
+
 Meteor is the fastest way to build JavaScript apps, [they say](http://hacklearnmake.com/stoked-on-meteor-transmission/). And not only fast, but it's also [easy to learn and powerful](http://hacklearnmake.com/stoked-on-meteor-the-goal-is-to-learn/).
 
 ### Tools in hand
