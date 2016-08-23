@@ -1,3 +1,5 @@
+> published: https://medium.com/hack-learn-make/stoked-on-meteor-a-newsletter-that-crashes-well-into-your-inbox-393d9a8144be#.ldwflkqcb
+
 # Glad to have this newsletter crashing into your inbox
 
 You are not that much into looking at [Reddit](https://www.reddit.com/r/Meteor/) or [content-curation communities]() to stay up to date? So what if you could:
